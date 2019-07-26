@@ -2,4 +2,4 @@
 # See the docs at https://www.habitat.sh/docs/create-packages-configure/.
 # You can safely delete this file if you don't need it.
 
-dest_dir = "/hab/svc/wildfly/standalone/deployments"
+dest_dir = "/hab/svc/wildfly/var/standalone/deployments"
