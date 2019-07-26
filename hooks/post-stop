@@ -1,1 +1,1 @@
-rm -F {{cfg.dest_dir}}/sample.war
+rm -f {{cfg.dest_dir}}/sample.war
