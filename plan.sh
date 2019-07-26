@@ -9,6 +9,11 @@ pkg_deps=(jmassardo/wildfly)
 pkg_description="Sample Java application"
 pkg_upstream_url="https://tomcat.apache.org/tomcat-7.0-doc/appdev/sample/"
 
+# Adding a binding so this service won't start if there's no wildfly instance available
+pkg_binds=(
+  [wildfly]="httpport"
+)
+
 do_unpack() {
   return 0
 }
