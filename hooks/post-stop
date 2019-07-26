@@ -1,0 +1,1 @@
+cp -F {{cfg.dest_dir}}/sample.war
